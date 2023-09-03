@@ -4,6 +4,7 @@ export const CountButton = () => {
   const [count, increase] = useReducer((c) => c + 1, 0)
 
   return (
+    <div className="h-screen flex items-center justify-center">
     <button
       onClick={() => increase()}
       type="button"
@@ -15,5 +16,6 @@ export const CountButton = () => {
         {count}
       </span>
     </button>
+    </div>
   )
 }
