@@ -1,6 +1,6 @@
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
 
-## Getting Started
+## Getting Started with Locator
 
 First, run the development server:
 
@@ -26,12 +26,12 @@ pnpm build
 npm run build
 ```
 
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
+This should create a production bundle for your extension, ready to be zipped and published to the stores. 
 
-## Submit to the webstores
+## Current Features
 
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
+For now, this extension allows us to get Location based on IP Address. It also handles error cases in case of wrong IP address or authentication key for the used API.
 
+## Demo Video
 
-
-![](demo.mp4)
+https://github.com/ankpan18/location-extension/assets/79756942/541fda11-9865-4d33-90ec-c1916f84cf50
