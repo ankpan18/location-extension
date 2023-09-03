@@ -31,6 +31,14 @@ This should create a production bundle for your extension, ready to be zipped an
 ## Current Features
 
 For now, this extension allows us to get Location based on IP Address. It also handles error cases in case of wrong IP address or authentication key for the used API.
+### Suceess
+![image](https://github.com/ankpan18/location-extension/assets/79756942/aba2f37c-a6ec-44fe-b6e3-eb1a2eb635d2)
+
+### Wrong IP Address
+![image](https://github.com/ankpan18/location-extension/assets/79756942/a4f3b61d-36cc-4459-bfb0-d3c2c739943e)
+
+### Wrong Auth Key
+![image](https://github.com/ankpan18/location-extension/assets/79756942/0db1a14d-a209-4a7f-bd61-b1e37bdf3fd2)
 
 ## Demo Video
 
